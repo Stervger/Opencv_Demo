@@ -9,7 +9,17 @@ from matplotlib import pyplot as plt
     S保存后退出
 """
 #读取图片
-img = cv2.imread('Picture/01.jpg',0)
+img = cv2.imread('D:\Opencv_Demo\Picture\p1.jpg',1)
+#获取某像素点的值
+px = img[10,10]
+print(px)
+#只获取蓝色通道的值
+px_blue = img[100,100,0]
+print(px_blue)
+#获取图像总像素
+print(img.size)
+# #指定图片ROI区域，（感兴趣区域）
+# face = img[100:200,115:188]
 #初始化窗口，使用WINDOW_NORMAL可以调整窗口大小
 cv2.namedWindow('image',cv2.WINDOW_NORMAL)
 #加载展示图片
@@ -27,7 +37,7 @@ elif k == ord('s'): #按s保存后退出
 """
     使用Matplotlib
 """
-# img = cv2.imread('01.jpg',1)
+# img = cv2.imread('p1.jpg',1)
 # plt.imshow(img,cmap='gray',interpolation='bicubic')
 # plt.xticks([]),plt.yticks([])
 # plt.show()
