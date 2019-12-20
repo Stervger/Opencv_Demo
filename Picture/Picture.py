@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
     S保存后退出
 """
 #读取图片
-img = cv2.imread('D:\Opencv_Demo\Picture\p1.jpg',1)
+img = cv2.imread('D:\Opencv_Demo\Picture\pic\Face.jpg',1)
 #获取某像素点的值
 px = img[10,10]
 print(px)
@@ -37,7 +37,7 @@ elif k == ord('s'): #按s保存后退出
 """
     使用Matplotlib
 """
-# img = cv2.imread('p1.jpg',1)
+# img = cv2.imread('Face.jpg',1)
 # plt.imshow(img,cmap='gray',interpolation='bicubic')
 # plt.xticks([]),plt.yticks([])
 # plt.show()

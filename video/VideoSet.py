@@ -3,14 +3,17 @@ import numpy as np
 
 cap = cv2.VideoCapture(r'D:\Opencv_Demo\video\video.mp4')
 
-while(1):
+"""
+物体颜色跟踪
+"""
+while(True):
     #提取每一帧
-    _,frame = cap.read()
+    ret,frame = cap.read()
     #将BGR转换为HSV
-    hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+    hsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
     #自定义蓝色的范围
-    lower_blue = np.array([100,50,50])
-    upper_blue = np.array([130,255,255])
+    lower_blue = np.array([100, 110, 110])
+    upper_blue = np.array([130, 255, 255])
 
     #介于lower/upper之间为白色，其余黑色
     mask = cv2.inRange(hsv,lower_blue,upper_blue)
