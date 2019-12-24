@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c652fd1-c1d2-4100-8571-7726a9b91600" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Picture/CannyEdgeDetection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/Contours.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/MorphologicalTransformation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/MutiContours.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/cornerHarris.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/Hand.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/MutiContour.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/building.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/chessboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/handwriting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/j.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/j_with_bclackdot_inside.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/j_with_whitedot_outside.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/pic/sudoku.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Picture/FeatureMatching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Picture/pic/Target.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Picture/pic/Template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Picture/pic/butterfly.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture/01backup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/pic/01backup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture/Averaging.py" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/Averaging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture/Picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/Picture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture/p1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/pic/Face.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture/p2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/pic/p2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/VideoSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/VideoSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/MorphologicalTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/MorphologicalTransformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/cornerHarris.py" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/cornerHarris.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/pic/building.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/pic/Building.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,17 +37,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tensorflow Object Detection API" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="myPyQtBackend" value="PyQt5" />
+  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Opencv_Demo\video" />
-      <recent name="D:\Opencv_Demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Opencv_Demo\Picture\pic" />
       <recent name="D:\Opencv_Demo\Picture" />
       <recent name="D:\Opencv_Demo\video" />
       <recent name="D:\Opencv_Demo" />
       <recent name="D:\Opencv_Demo\DrawPicture" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Opencv_Demo\video" />
+      <recent name="D:\Opencv_Demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MorphologicalTransformation">
+  <component name="RunManager" selected="Python.FeatureMatching">
     <configuration name="CannyEdgeDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Opencv_Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Contours" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FeatureMatching" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Opencv_Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Picture/Contours.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Picture/FeatureMatching.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MorphologicalTransformation" />
+        <item itemvalue="Python.FeatureMatching" />
         <item itemvalue="Python.cornerHarris" />
+        <item itemvalue="Python.MorphologicalTransformation" />
         <item itemvalue="Python.CannyEdgeDetection" />
         <item itemvalue="Python.MutiContours" />
-        <item itemvalue="Python.Contours" />
       </list>
     </recent_temporary>
   </component>

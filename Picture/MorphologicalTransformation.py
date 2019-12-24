@@ -38,17 +38,38 @@ closing = cv2.morphologyEx(
 )
 
 
+"""
+    形态学梯度，用膨胀图减去腐蚀图，得到物体的轮廓
+"""
+outline = cv2.morphologyEx(img,cv2.MORPH_GRADIENT,kernel)
+
+"""
+    顶帽，原图减去开运算后的图
+"""
+tophat = cv2.morphologyEx(img,cv2.MORPH_TOPHAT,kernel)
+
+"""
+    黑帽，闭运算后的图减去原图
+"""
+blackhat = cv2.morphologyEx(img,cv2.MORPH_BLACKHAT,kernel)
+
+
 
 # cv2.imshow('Origin',img)
 
 # cv2.imshow('erode',erosion)
 # cv2.imshow('dilation',dilation)
 
-cv2.imshow('open',open)
-cv2.imshow('close',close)
+# cv2.imshow('open',open)
+# cv2.imshow('close',close)
+#
+# cv2.imshow('opening',opening)
+# cv2.imshow('closing',closing)
 
-cv2.imshow('opening',opening)
-cv2.imshow('closing',closing)
+# cv2.imshow('outline',outline)
 
+# cv2.imshow('tophat',tophat)
+
+cv2.imshow('blackhat',blackhat)
 
 cv2.waitKey(0)
